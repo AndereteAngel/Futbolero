@@ -1,0 +1,104 @@
+:root {
+  /* =========================================
+     FUTBOLERO — DESIGN SYSTEM
+     ========================================= */
+
+  /* Colores principales */
+  --color-primary: #16a34a;
+  --color-primary-dark: #0f7a38;
+  --color-primary-light: #4ade80;
+
+  --color-secondary: #2563eb;
+  --color-secondary-dark: #1d4ed8;
+  --color-secondary-light: #60a5fa;
+
+  /* Fondos */
+  --color-background: #07111f;
+  --color-background-soft: #0d1b2a;
+  --color-surface: #12263a;
+  --color-surface-light: #19344d;
+
+  /* Texto */
+  --color-text: #f8fafc;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #94a3b8;
+
+  /* Estados */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #38bdf8;
+
+  /* Premios / momentos especiales */
+  --color-gold: #facc15;
+  --color-gold-dark: #ca8a04;
+  --color-silver: #cbd5e1;
+  --color-bronze: #d97706;
+
+  /* Bordes */
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-strong: rgba(255, 255, 255, 0.2);
+
+  /* Tipografía */
+  --font-primary:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --font-display:
+    Impact,
+    Haettenschweiler,
+    "Arial Narrow Bold",
+    sans-serif;
+
+  /* Tamaños */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.5rem;
+  --text-3xl: 3.5rem;
+
+  /* Bordes redondeados */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* Sombras */
+  --shadow-sm:
+    0 4px 10px rgba(0, 0, 0, 0.2);
+
+  --shadow-md:
+    0 8px 24px rgba(0, 0, 0, 0.3);
+
+  --shadow-lg:
+    0 16px 40px rgba(0, 0, 0, 0.4);
+
+  /* Efectos */
+  --glow-primary:
+    0 0 20px rgba(34, 197, 94, 0.35);
+
+  --glow-secondary:
+    0 0 20px rgba(37, 99, 235, 0.35);
+
+  --glow-gold:
+    0 0 24px rgba(250, 204, 21, 0.45);
+
+  /* Transiciones */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 450ms ease;
+
+  /* Capas */
+  --z-base: 1;
+  --z-dropdown: 10;
+  --z-navbar: 100;
+  --z-modal: 1000;
+  --z-overlay: 2000;
+}
