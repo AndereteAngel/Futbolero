@@ -7,7 +7,6 @@ import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import Navbar from "./components/layout/Navbar";
 import Register from "./pages/Register/Register";
-import Tournaments from "./pages/Tournaments/Tournaments";
 import { useAuth } from "./context/AuthContext";
 
 function App() {
@@ -31,8 +30,6 @@ function App() {
         <Route path="/diario" element={<Daily />} />
 
         <Route path="/mano-a-mano" element={<HeadToHead />} />
-
-        <Route path="/torneos" element={<Tournaments />} />
 
         <Route
           path="*"
