@@ -24,6 +24,10 @@ function Navbar() {
       <nav className="navbar__nav">
         {usuario ? (
           <>
+            <Link to="/torneos/crear" className="navbar__link">
+              CREAR TORNEO
+            </Link>
+
             <span className="navbar__alias">{perfil?.alias}</span>
 
             <button
@@ -40,7 +44,10 @@ function Navbar() {
               INGRESAR
             </Link>
 
-            <Link to="/registro" className="navbar__link navbar__link--primary">
+            <Link
+              to="/registro"
+              className="navbar__link navbar__link--primary"
+            >
               REGISTRARSE
             </Link>
           </>
